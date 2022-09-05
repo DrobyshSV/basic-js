@@ -37,7 +37,7 @@ describe('Extended repeater', () => {
     });
 
     it.optional('supports missing repeat counters', () => {
-      assert.equal(repeater('TESTstr', { separator: 'ds', addition: 'ADD!', additionSeparator: ')))000' }), 'TESTstrADD!');
+      assert. equal(repeater('TESTstr', { separator: 'ds', addition: 'ADD!', additionSeparator: ')))000' }), 'TESTstrADD!');
     });
 
     it.optional('some pack of tests', () => {
